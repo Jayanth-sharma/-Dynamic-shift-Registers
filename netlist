@@ -1,1 +1,75 @@
+Generated for: PrimeSim
+*  Design library name: cp_lib25
+*  Design cell name: shf_reg_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Mon Feb 28 06:23:55 2022
+
+.global gnd!
+********************************************************************************
+* Library          : cp_lib25
+* Cell             : dynamic_shift_reg
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt dynamic_shift_reg d_in v_deb2 v_deb1 v_out v_ph1 v_ph2 v_ref
++ vt_bulk_n_gnd!
+xm22 net89 v_out v_ref vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm16 v_ph1 v_ph1 net89 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm15 v_out v_ph1 v_deb2 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm7 v_ph2 v_ph2 v_deb2 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm6 net19 v_ph2 v_deb1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm5 v_deb2 net19 v_ref vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm10 v_ph1 v_ph1 v_deb1 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm1 v_deb1 net8 v_ref vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm0 net8 v_ph1 d_in vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+.ends dynamic_shift_reg
+
+********************************************************************************
+* Library          : cp_lib25
+* Cell             : shf_reg_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 d_in v_n1 v_n2 v_out v_ph1 v_ph2 gnd! gnd! dynamic_shift_reg
+v3 v_ph1 gnd! dc=0 pulse ( 0 2 0 1u 1u 2u 8u )
+v2 v_ph2 gnd! dc=0 pulse ( 0 2 2u 1u 1u 2u 8u )
+v1 d_in gnd! dc=0 pulse ( 'q' 2 0 1u 1u 2u 4u )
+c11 v_n1 gnd! c=10u
+c10 v_n2 gnd! c=10u
+c9 v_out gnd! c=10u
+
+
+
+
+
+
+
+
+.tran '10n' '20n' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(d_in) v(v_out) v(v_ph1) v(v_ph2)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
+
 

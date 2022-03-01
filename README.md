@@ -17,4 +17,5 @@ The scope of this project  is to design a dynamic Shift register. Which is a low
 ![reference_circuit](https://user-images.githubusercontent.com/53760504/156192912-6b7003c4-517e-4232-a7ee-a880f5f359b2.png)
 >
 </p>
-# Circuit Details
+
+#  Circuit Details

@@ -19,3 +19,6 @@ The scope of this project  is to design a dynamic Shift register. Which is a low
 </p>
 
 #  Circuit Details
+#  Circuit diagram 
+#  Generator waveform from Simulation
+#  Conclusion 

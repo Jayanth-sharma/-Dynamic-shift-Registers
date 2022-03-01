@@ -13,12 +13,16 @@ The scope of this project  is to design a dynamic Shift register. Which is a low
 
 # Reference Circuit Diagram
 <p align="center">
-  <img width="600" height="200" 
-![reference_circuit](https://user-images.githubusercontent.com/53760504/156192912-6b7003c4-517e-4232-a7ee-a880f5f359b2.png)
->
+  ![reference_circuit](https://user-images.githubusercontent.com/53760504/156196667-aa34aeea-ce1a-4a6b-ad43-c323e15f980a.png)
+
 </p>
 
 #  Circuit Details
 #  Circuit diagram 
+![Circuit_diagram](https://user-images.githubusercontent.com/53760504/156196717-b750c060-27c0-41a2-ad17-febf66137ce1.jpg)
+![test_bench](https://user-images.githubusercontent.com/53760504/156196870-4c069a84-e2fb-460e-aefd-7e951560e1ac.jpg)
+
 #  Generator waveform from Simulation
+![1_bit_shift](https://user-images.githubusercontent.com/53760504/156197016-23d56d55-cd0e-41ec-a480-8c68781aeeae.jpg)
+
 #  Conclusion 

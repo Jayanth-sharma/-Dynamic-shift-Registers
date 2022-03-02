@@ -16,7 +16,7 @@ The scope of this project  is to design a dynamic Shift register. Which is a low
 #  Circuit Details
 Dynamic shift register have several advantages over the Static shift register in terms of higher performance,transistor density, Reduction in circuit delay and silicon area. In each stage, the input pass transistor and the load transistorare driven by the same clock phase
 •Φ1 active
-–Vin transfer to Cin⇒1st inverter is active ⇒Vout1 attains its valid logic level
+<li>–Vin transfer to Cin⇒1st inverter is active ⇒Vout1 attains its valid logic level</li>
 •Φ2 active
 –2nd pass transistor on ⇒the logic level is transferred onto the next stage
 Considering two cases
@@ -40,5 +40,6 @@ Cin1 high, nMOS driver on⇒Vout1=0V
 
 #  Generator waveform from Simulation
 ![1_bit_shift](https://user-images.githubusercontent.com/53760504/156197016-23d56d55-cd0e-41ec-a480-8c68781aeeae.jpg)
-
+toll
 #  Conclusion 
+The transient Analysis is done and Uunderstood the flow in Designing of Analog circuit and Analysis.With Synopsys Custom complier tool

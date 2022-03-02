@@ -14,26 +14,26 @@ The scope of this project  is to design a dynamic Shift register. Which is a low
 # Reference Circuit Diagram
   ![reference_circuit](https://user-images.githubusercontent.com/53760504/156198052-de9f242b-c43e-4dfb-8b4e-60544b7c3d5b.jpg)
 #  Circuit Details
-Dynamic shift register have several advantages over the Static shift register in terms of higher performance,transistor density, Reduction in circuit delay and silicon area. In each stage, the input pass transistor and the load transistorare driven by the same clock phase
-•Φ1 active
-<li>–Vin transfer to Cin⇒1st inverter is active ⇒Vout1 attains its valid logic level</li>
-•Φ2 active
-–2nd pass transistor on ⇒the logic level is transferred onto the next stage
-Considering two cases
-–Case 1
-If Cout1 high at the end of the active
-Φ1 phase
-By mean of Cin1 low input ⇒nMOS driver off ⇒Vout1=VDD-VTn
-Φ2 active
-The voltage level is transfer to Cin2 via charge sharing over the pass transistor
-Cout/Cin↑to correctly transfer a logic-high level
-•Considering Case 2
-•If Vout1 is logic-low at the end of the active Φ1 phase
-Cin1 high, nMOS driver on⇒Vout1=0V
-•As Φ2 active
-–Transfer by pass transistor
-•Ratiolessdynamic logic
-–VOL=0, independent of driver-to-load ratio
+Dynamic shift register have several advantages over the Static shift register in terms of higher performance,transistor density, Reduction in circuit delay and silicon area. In each stage, the input pass transistor and the load transistorare driven by the same clock phase.<br />r /
+•Φ1 active.<br />
+–Vin transfer to Cin⇒1st inverter is active ⇒Vout1 attains its valid logic level<br />
+•Φ2 active <br />
+–2nd pass transistor on ⇒the logic level is transferred onto the next stage.<br />
+Considering two cases.<br />
+–Case 1, <br />
+If Cout1 high at the end of the active<br />
+Φ1 phase,  <br />
+By mean of Cin1 low input ⇒nMOS driver off ⇒Vout1=VDD-VTn.<br />
+Φ2 active<br />
+The voltage level is transfer to Cin2 via charge sharing over the pass transistor<br />
+Cout/Cin↑to correctly transfer a logic-high level<br />
+•Considering Case 2<br />
+•If Vout1 is logic-low at the end of the active Φ1 phase<br />
+Cin1 high, nMOS driver on⇒Vout1=0V<br />
+•As Φ2 active<br />
+–Transfer by pass transistor<br />
+•Ratiolessdynamic logic<br />
+–VOL=0, independent of driver-to-load ratio<br />
 
 # Circuit diagram 
 
@@ -42,7 +42,7 @@ Cin1 high, nMOS driver on⇒Vout1=0V
 
 #  Generator waveform from Simulation
 ![1_bit_shift](https://user-images.githubusercontent.com/53760504/156197016-23d56d55-cd0e-41ec-a480-8c68781aeeae.jpg)
-toll
+
 #  Conclusion 
 The transient Analysis is done and Uunderstood the flow in Designing of Analog circuit and Analysis.With Synopsys Custom complier tool
 # Thanks to 

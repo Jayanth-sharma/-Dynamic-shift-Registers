@@ -14,6 +14,26 @@ The scope of this project  is to design a dynamic Shift register. Which is a low
 # Reference Circuit Diagram
   ![reference_circuit](https://user-images.githubusercontent.com/53760504/156198052-de9f242b-c43e-4dfb-8b4e-60544b7c3d5b.jpg)
 #  Circuit Details
+Dynamic shift register have several advantages over the Static shift register in terms of higher performance,transistor density, Reduction in circuit delay and silicon area. In each stage, the input pass transistor and the load transistorare driven by the same clock phase
+•Φ1 active
+–Vin transfer to Cin⇒1st inverter is active ⇒Vout1 attains its valid logic level
+•Φ2 active
+–2nd pass transistor on ⇒the logic level is transferred onto the next stage
+Considering two cases
+–Case 1
+If Cout1 high at the end of the active
+Φ1 phase
+By mean of Cin1 low input ⇒nMOS driver off ⇒Vout1=VDD-VTn
+Φ2 active
+The voltage level is transfer to Cin2 via charge sharing over the pass transistor
+Cout/Cin↑to correctly transfer a logic-high level
+•Considering Case 2
+•If Vout1 is logic-low at the end of the active Φ1 phase
+Cin1 high, nMOS driver on⇒Vout1=0V
+•As Φ2 active
+–Transfer by pass transistor
+•Ratiolessdynamic logic
+–VOL=0, independent of driver-to-load ratio
 #  Circuit diagram 
 ![Circuit_diagram](https://user-images.githubusercontent.com/53760504/156196717-b750c060-27c0-41a2-ad17-febf66137ce1.jpg)
 ![test_bench](https://user-images.githubusercontent.com/53760504/156196870-4c069a84-e2fb-460e-aefd-7e951560e1ac.jpg)

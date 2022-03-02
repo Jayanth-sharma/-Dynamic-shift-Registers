@@ -34,7 +34,9 @@ Cin1 high, nMOS driver on⇒Vout1=0V
 –Transfer by pass transistor
 •Ratiolessdynamic logic
 –VOL=0, independent of driver-to-load ratio
-#  Circuit diagram 
+
+# Circuit diagram 
+
 ![Circuit_diagram](https://user-images.githubusercontent.com/53760504/156196717-b750c060-27c0-41a2-ad17-febf66137ce1.jpg)
 ![test_bench](https://user-images.githubusercontent.com/53760504/156196870-4c069a84-e2fb-460e-aefd-7e951560e1ac.jpg)
 
@@ -43,3 +45,11 @@ Cin1 high, nMOS driver on⇒Vout1=0V
 toll
 #  Conclusion 
 The transient Analysis is done and Uunderstood the flow in Designing of Analog circuit and Analysis.With Synopsys Custom complier tool
+# Thanks to 
+[VSD](https://www.vlsisystemdesign.com/basic_courses/),[IITH](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/) and [Synopsys](https://www.synopsys.com/) for Organising the hackthon.<br />
+[Kunal(VSD founder)](https://github.com/kunalg123),Chinmaya Panda and everyone in the hackthon forum for the help.Had a great time.<br />
+[Sameer S Durgoji](https://github.com/SameerSDurgoji) for the Custom complier walkthrough.
+
+# Reference
+Razavi, Behzad. 2001. Design of analog CMOS integrated circuits.Boston, MA: McGraw-Hill.<br />
+"A design method of nMOS dynamic shift registers for small liquid crystal displays"Shuji Tsukiyama; Shinji Higa

@@ -9,7 +9,7 @@
 </ul>
 
 # Abstract
-The scope of this project  is to design a dynamic Shift register. Which is a low power consumption and lower area compared to a conventional as well ratioed ocounterpart.we examine the basic dynamic operations of 2-phase clock shift registers.Dynamic shift registers are simpler in terms of fabrication and have high package density due to their smaller size. However it is to be noted that their advantage of less power consumption is cursed by the fact that the power consumed increases with the increase in frequency. 
+The scope of this project  is to design a dynamic Shift register. Which is a low power consumption and lower area compared to a conventional as well ratioed counterpart.we examine the basic dynamic operations of 2-phase clock shift registers.Dynamic shift registers are simpler in terms of fabrication and have high package density due to their smaller size. However it is to be noted that their advantage of less power consumption is cursed by the fact that the power consumed increases with the increase in frequency. 
 
 # Reference Circuit Diagram
   ![reference_circuit](https://user-images.githubusercontent.com/53760504/156198052-de9f242b-c43e-4dfb-8b4e-60544b7c3d5b.jpg)

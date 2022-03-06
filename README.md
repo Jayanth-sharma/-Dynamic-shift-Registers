@@ -14,7 +14,7 @@ The scope of this project  is to design a dynamic Shift register. Which is a low
 # Reference Circuit Diagram
   ![reference_circuit](https://user-images.githubusercontent.com/53760504/156198052-de9f242b-c43e-4dfb-8b4e-60544b7c3d5b.jpg)
 #  Circuit Details
-Dynamic shift register have several advantages over the Static shift register in terms of higher performance,transistor density, Reduction in circuit delay and silicon area. In each stage, the input pass transistor and the load transistorare driven by the same clock phase.<br />
+Dynamic shift register have several advantages over the Static shift register in terms of higher performance,transistor density, Reduction in circuit delay and silicon area. In each stage, the input pass transistor and the load transistor are driven by the same clock phase.<br />
 •Φ1 active.<br />
 –Vin transfer to Cin⇒1st inverter is active ⇒Vout1 attains its valid logic level<br />
 •Φ2 active <br />

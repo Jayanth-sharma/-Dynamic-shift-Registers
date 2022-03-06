@@ -44,7 +44,7 @@ Cin1 high, nMOS driver on⇒Vout1=0V<br />
 ![1_bit_shift](https://user-images.githubusercontent.com/53760504/156197016-23d56d55-cd0e-41ec-a480-8c68781aeeae.jpg)
 
 #  Conclusion 
-The transient Analysis is done and Uunderstood the flow in Designing of Analog circuit and Analysis.With Synopsys Custom complier tool
+The transient Analysis is done and Understood the flow in Designing of Analog circuit and Analysis.With Synopsys Custom complier tool
 # Thanks to 
 [VSD](https://www.vlsisystemdesign.com/basic_courses/),[IITH](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/) and [Synopsys](https://www.synopsys.com/) for Organising the hackthon.<br />
 [Kunal(VSD founder)](https://github.com/kunalg123),Chinmaya Panda and everyone in the hackthon forum for the help.Had a great time.<br />

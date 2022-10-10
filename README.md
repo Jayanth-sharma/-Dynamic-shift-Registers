@@ -2,7 +2,7 @@
 # Content
 [Abstract](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#abstract)<br/>
 [Circuit details](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#circuit-details)<br/>
-[Circuit diagram](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#circuit-details)< br/>
+[Circuit diagram](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#circuit-details)<br/>
 [Generated waveforms from simulations](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#generator-waveform-from-simulation)<br/>
 [Conclusion](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#conclusion)<br/>
 

@@ -1,10 +1,10 @@
 # Design of 1bit-Dynamic-shift-Registers in 32nm CMOS technology
 # Content
-[Abstract](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#abstract)
-[Circuit details](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#circuit-details)
-[Circuit diagram](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#circuit-details)
-[Generated waveforms from simulations](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#generator-waveform-from-simulation)
-[Conclusion](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#conclusion)
+[Abstract](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#abstract)<br/>
+[Circuit details](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#circuit-details)<br/>
+[Circuit diagram](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#circuit-details)< br/>
+[Generated waveforms from simulations](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#generator-waveform-from-simulation)<br/>
+[Conclusion](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#conclusion)<br/>
 
 
 # Abstract

@@ -1,12 +1,11 @@
 # Design of 1bit-Dynamic-shift-Registers in 32nm CMOS technology
 # Content
-<ul>
-<li>[Abstract](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#abstract)</li>
-<li>[Circuit details](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#circuit-details)</li>
-<li>[Circuit diagram](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#circuit-details)</li>
-<li>[Generated waveforms from simulations](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#generator-waveform-from-simulation)</li>
-<li>[Conclusion](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#conclusion)</li>
-</ul>
+[Abstract](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#abstract)
+[Circuit details](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#circuit-details)
+[Circuit diagram](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#circuit-details)
+[Generated waveforms from simulations](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#generator-waveform-from-simulation)
+[Conclusion](https://github.com/Jayanth-sharma/-Dynamic-shift-Registers#conclusion)
+
 
 # Abstract
 The scope of this project  is to design a dynamic Shift register. Which is a low power consumption and lower area compared to a conventional as well ratioed counterpart.we examine the basic dynamic operations of 2-phase clock shift registers.Dynamic shift registers are simpler in terms of fabrication and have high package density due to their smaller size. However it is to be noted that their advantage of less power consumption is cursed by the fact that the power consumed increases with the increase in frequency. 
